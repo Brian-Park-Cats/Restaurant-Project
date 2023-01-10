@@ -1,0 +1,228 @@
+body {
+    margin:auto;
+    padding: auto;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    background-color: #f2eee3;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.navArea {
+    position:absolute;
+    top:20%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.title {
+    position: absolute;
+    z-index: 999;
+    top:15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ul {
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    display: inline-flex;
+    border-bottom: grey dotted 4px;
+    border-top: grey dotted 4px;
+    height: 60px;
+    list-style: none;
+    align-items:center ;
+    justify-content: space-evenly;
+}
+
+li {
+    font-size: 1rem;
+}
+
+.image {
+    margin-top: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform:translateX(-50%);
+    text-align: center;
+    height: 300px;
+    
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+figure {
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height:100%;
+}
+
+#aside {
+    left: 30%;
+}
+
+.aside {
+    margin-top: 100px;
+    width: 700px;
+    height: 700px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    top: 100%;
+    left:50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+
+}
+
+.aside img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.aside figure {
+    background-color: #f6c9c8;
+}
+
+.aside p {
+    margin-left: 50%;
+    margin-top: 80%;
+    width: 200px;
+}
+
+li {
+   white-space: nowrap;
+   padding-right: 50px;
+   z-index: 999;
+   
+}
+
+.best {
+    margin-top: 700px;
+    position:absolute;
+    text-align: center;
+    top: 120%;
+    left:50%;
+    transform: translateX(-50%);
+    
+}
+
+.best_child {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 1800px;
+    
+
+}
+
+.best_child img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+figcaption {
+    font-size: 1rem;
+    position: absolute;
+
+}
+
+#fabric {
+    right: 300px;
+}
+
+#frog {
+    left: 105px;
+}
+
+.footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:180%;
+    text-align: center;
+    margin-top: 50px;
+    width:100%;
+    height:200px;
+    background-color: gainsboro;
+    margin-top: 800px;
+}
+
+.contact {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.shodo_figure {
+    position:relative;
+    height: 700px;
+    width: 700px;
+    left: 50%;
+    margin-top: 56.25%;
+}
+
+.shodo_figure img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+    height: 60%;
+    width: 100vw;
+    position: relative;
+    top: 200px;
+}
+
+
+
+.snack_item {
+    margin: 40px;
+    height: 500px;
+    width: 500px;
+    
+
+}
+
+.shopping_cart {
+    position:absolute;
+    top: 50%;
+    width: 800px;
+    height: 800px;
+    font-size: 2rem;
+    left: 46%;
+    
+}
+
+.table {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+}

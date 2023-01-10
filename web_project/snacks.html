@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+    
+        <div class = "title">
+            <main>
+                Eastern Artisans <br>
+            </main>
+        </div>
+
+    <div class = "navArea">
+        <nav>
+            <div class = "innerNav">
+                
+                <ul>
+                    <li> <a href = "index.html"> Home </a></li>
+                    <li> <a href = "cart.html"> Cart </a></li>
+                    <li> <a href = "#"> Contact </a></li>
+                </ul>
+                
+            </div>
+
+            <div class = "items">
+
+                <div class = "snack_item">
+                    <img style = "object-fit: contain;" src = "octocandy.jpg">
+                    
+                    <button id = "0" class = "snack_purchase" onClick = "purchase(this.id)"> Add to Cart </button>
+
+                    <form>
+                    
+                        <input readonly class = "quantity" type="text" name="name" value="0" />
+                        <input type="button" value="+" onclick="this.form.name.value++;" >
+                        <input type="button" value="-" onclick="if(this.form.name.value>0)this.form.name.value--;">
+                        
+                    </form>
+
+                    <figcaption> Octopus Amezaiku (1pc) $20.00 </figcaption>
+                
+                </div>
+
+                <div class = "snack_item">  
+                    <img style = "object-fit: contain;" src = "4d79d3d48441df9efbceb30a2d9d1df4.jpg">
+                    <button id = "1" class = "snack_purchase" onClick = "purchase(this.id)"> Add to Cart </button>
+
+                    <form>
+                    
+                        <input readonly class = "quantity" type="text" name="name" value="0" />
+                        <input type="button" value="+" onclick="this.form.name.value++;" >
+                        <input type="button" value="-" onclick="if(this.form.name.value>0)this.form.name.value--;">
+                        
+                    </form>
+                    <figcaption> Dragon Amezaiku (1pc) $15.00 </figcaption>
+                </div>
+
+                <div class = "snack_item">
+                    <img style = "object-fit: contain;" src = "mawaru.jpg">
+                    <button id = "2" class = "snack_purchase" onClick = "purchase(this.id)"> Add to Cart </button>
+
+                    <form>
+                    
+                        <input readonly class = "quantity" type="text" name="name" value="0" />
+                        <input type="button" value="+" onclick="this.form.name.value++;" >
+                        <input type="button" value="-" onclick="if(this.form.name.value>0)this.form.name.value--;">
+                        
+                    </form>
+                    <figcaption> New Year's Rabbit Set Lollipop (3pc) $15.00 </figcaption>
+                </div>
+
+                <div class = "snack_item">
+                    <img style = "object-fit: contain;" src = "gift_box.jpg">
+                    <button id = "3" class = "snack_purchase" onClick = "purchase(this.id)"> Add to Cart </button>
+
+                    <form>
+                    
+                        <input readonly class = "quantity" type="text" name="name" value="0" />
+                        <input type="button" value="+" onclick="this.form.name.value++;" >
+                        <input type="button" value="-" onclick="if(this.form.name.value>0)this.form.name.value--;">
+                        
+                    </form>
+                    <figcaption> Assorted Senbei Gift Box $35.00 </figcaption>
+                </div>
+
+                <div class = "snack_item">
+                    <img style = "object-fit: contain;" src = "froug.jpg">
+                    <button id = "4" class = "snack_purchase" onClick = "purchase(this.id)"> Add to Cart </button>
+
+                    <form>
+                    
+                        <input readonly class = "quantity" type="text" name="name" value="0" />
+                        <input type="button" value="+" onclick="this.form.name.value++;" >
+                        <input type="button" value="-" onclick="if(this.form.name.value>0)this.form.name.value--;">
+                        
+                    </form>
+                    <figcaption> Amezaiku Frog (5pc) $30.00 </figcaption>
+                </div>
+
+                <div class = "snack_item">
+                    <img style = "object-fit: contain;" src = "candy_fish.jpg">
+                    <button id = "5" class = "snack_purchase" onClick = "purchase(this.id)"> Add to Cart </button>
+
+                    <form>
+                        
+                        <input readonly class = "quantity" type="text" name="name" value="0" />
+                        <input type="button" value="+" onclick="this.form.name.value++;" >
+                        <input type="button" value="-" onclick="if(this.form.name.value>0)this.form.name.value--;">
+                        
+                    </form>
+                    <figcaption> Amezaiku Gold-Fish (5pc) $50.00 </figcaption>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class = "table_container">
+        <table id = "table" class = "table">
+            <tr>
+                <th> Item </th>
+                <th> Price </th>
+                <th> Quantity </th>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <script src = "script.js"></script>
+    <script>  </script>
+    </body>
+</html>

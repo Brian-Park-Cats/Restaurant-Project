@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+
+    <div class = "title">
+        <main>
+            Eastern Artisans
+        </main>
+    </div>
+
+<div class = "navArea">
+    <nav>
+        <div class = "innerNav">
+            
+            <ul>
+                <li> <a href = "snacks.html"> Snacks </a></li>
+                <li> <a href = "cart.html"> Cart </a></li>
+                <li> <a href = "#"> Contact </a></li>
+            </ul>
+            
+        </div>
+    </nav>
+</div>
+
+<div id = "shopping" class = "shopping_cart">
+
+    
+</div>
+
+
+
+
+
+
+<div class = "footer">
+    <footer>
+    
+    </footer>
+</div>
+<script src = "script.js">
+</script>
+<script> 
+
+       
+    let x = document.getElementById("shopping")
+    console.log(localStorage.getItem("data"))
+    y = localStorage.getItem("data")
+    console.log(document.getElementById("shopping"))
+    x.innerHTML = y
+    
+    
+</script>
+
+
+</body>
+</html>
